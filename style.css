@@ -1,0 +1,341 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span, a {
+    display: inline-block;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.head{
+    background-color: #E6E6E6;
+    padding: 2px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.left{
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.right{
+
+}
+
+.aa{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+padding-right: 15px;
+}
+
+.imgg{
+    margin-right: 35px;
+}
+
+.btn{
+    border-radius: 7px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin-right: 55px;
+}
+
+.ab{
+    margin-top: 15px;
+    padding: 7px;
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.body{
+    height: 600px;
+    background-image: url(fon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.p{
+    font-size: 22px;
+    color: white;
+}
+.black{
+    color: black;
+}
+
+
+
+.bodyleft{   
+    backdrop-filter: blur(7px);
+    padding: 100px;
+    background-color: #999faa8c;
+    width: 20%;
+}
+
+
+
+.bodyright{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(173, 177, 180, 0.516);
+    padding: 50px 150px;
+    width: 80%;
+    align-self: center;
+    text-align: center;
+    backdrop-filter: blur(7px);
+}
+
+
+
+.theme{
+    font-weight: 600;
+    font-size: 27px;
+}
+
+.soc{
+    padding: 15px;
+}
+
+
+
+.middle{
+    padding: 20px 100px;
+    font-size: 22px;
+}
+
+.inmiddle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    align-items: center;
+}
+.line{
+   height: 1px;
+    width: 80px;
+    padding: 1px;
+    margin-right: 7px;
+    background-color: black;
+}
+
+.parallel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.xona{
+    width: 43%;
+}
+
+.block{
+    width: 55%;
+    text-align: justify;
+    padding-right: 140px;
+}
+
+
+.brands{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.brand{
+    width: 20%;
+}
+
+.dublmiddle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.services{
+    border-radius: 7px;
+    box-shadow: 0 0 12px #DEDEDE;
+    padding: 20px;
+    width: 31%;
+    background-color: white;
+}
+
+.white{
+    background-color: white;
+}
+.bold{
+    font-weight: bold;
+}
+
+.center{
+    text-align: center;
+}
+
+.izla{
+    width: 20%;
+}
+.links{
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.link{
+    text-decoration: none;
+    font-size: 22px;
+    color: #818181;
+}
+
+.izla{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.typingsearch{
+    background-color: black;
+    width: 20%;
+    border-radius: 8px;
+    padding: 10px;
+}
+.typing{
+    padding: 7px;
+    width: 80%;
+    background-color: #EFEFEF;
+}
+
+.object{
+    width: 22%;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 0 0 12px #DEDEDE;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+.intheme{
+    padding: 5px 0;
+    font-size: 20px;
+}
+
+.text{
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.uzz{
+    background-color: white ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.boy, .girl{
+    background-color: white;
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+}
+
+.boyimg{
+    width: 29%;
+}
+.boyname{
+    background-color: white;
+    padding-left: 10px;
+    width: 70%;
+}
+
+
+.footer{
+
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 100px;
+    color: white;
+    background-color: #373737;
+}
+.footclr{
+    background-color: #373737;
+}
+
+.pad10{
+    padding: 10px 0;
+}
+
+.big{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.call{
+    border-radius: 50px;
+}
+
+.footfirst{
+    width: 22%;
+}
+
+.footsecond{
+    width: 22%;
+}
+
+.footthird{
+    width: 22%;
+}
+
+.footlink{
+    widows: 33%;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.mailsend{
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.mailtype{
+    color: black;
+    background-color: white;
+    width: 66%;
+    padding: 9px;
+    border-radius: 10px;
+
+}
+.mailswitch{
+    padding: 10px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.downapp{
+    border-radius: 10px;
+    padding: 10px;
+}
